@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Icon\icon.png" type="image/x-icon">
+    <title>MTEverse | Moshiur Tanvin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h1>Welcome to MTEverse</h1>
+        <h2>Portfolio</h2>
+        <img src="Images/mtevan.jpg" alt="Moshiur Tanvin's Photo" class="profile-pic">
+        <p>Explore the projects and accomplishments that showcase my passion for technology and IT.</p>
+        <div class="projects">
+            <div class="project">
+                <h3>Jagoroni Computer Training Center</h3>
+                <p>Trained and mentored students in the field of IT.</p>
+            </div>
+            <div class="project">
+                <h3>Pidilite Chemical Ltd.</h3>
+                <p>Managed IT systems and data entry operations.</p>
+            </div>
+        </div>
+        <a href="Essentials/Curriculum Vitae (MOSHIUR TANVIN).pdf" download class="download-cv">Download CV</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Moshiur Tanvin</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    I am a tech enthusiast from Barishal, Bangladesh, with a passion for IT and a dedication to personal
+                    and professional growth. I’ve worked as a trainer and a computer operator, excelling in
+                    problem-solving and innovation.
+                </p>
+                <p>
+                    I have been active in scouting and rovering, contributing to environmental conservation through tree
+                    plantation projects. Fluent in Bengali, English, and Hindi, I enjoy working in diverse teams and
+                    learning new technologies.
+                </p>
+                <p>
+                    My journey has been filled with recognition, including the Jamboree Award in 2020 and the Best
+                    Student Award in Barishal Zilla in 2022.
+                </p>
+            </div>
+            <div class="about-images">
+                <img src="Images/scout.jpg" alt="Scouting" class="about-img">
+                <img src="Images/with student.jpg" alt="With students" class="about-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to discuss collaboration opportunities or simply connect!</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <p>Email: <a href="mailto:tanvinevan9@gmail.com">tanvinevan9@gmail.com</a></p>
+                <p>Contact No: <a href="tel:+8801886611862">+8801886611862</a></p>
+                <p>Web Link: <a href="https://mtevan.bio.link">mtevan.bio.link</a></p>
+            </div>
+            <div class="footer-right">
+                <p>Connect with Me:</p>
+                <a href="https://github.com/mtevan/"><img src="Icon/GitHub.png" alt="Github"></a>
+                <a href="https://www.linkedin.com/in/moshiurtanvinevan/"><img src="Icon/linkedin.png"
+                        alt="LinkedIn"></a>
+                <a href="https://facebook.com/MoshiurTanvinEvan/"><img src="Icon/facebook.png" alt="Facebook"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 MTEvan_Unknown. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <!-- Smooth Scrolling -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
