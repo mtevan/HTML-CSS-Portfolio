@@ -22,10 +22,8 @@
 - **CSS3**: Custom styling with futuristic elements and responsiveness
 - **JavaScript**: Smooth scrolling and user interaction enhancements
 
-## 🌐 Connect with Me
 
 ## 🌐 Connect with Me
-
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/mtevan/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/moshiurtanvinevan/)
 [![Facebook](https://img.shields.io/badge/Facebook-4267B2?style=flat&logo=facebook&logoColor=white)](https://facebook.com/MoshiurTanvinEvan/)
